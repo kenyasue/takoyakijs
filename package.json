@@ -1,0 +1,35 @@
+{
+    "name": "takoyakijs",
+    "version": "1.0.3",
+    "description": "Takoyakijs is simplest way to start web server in Typescript and ReactJS.",
+    "main": "bin/main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc -p tsconfig.json",
+        "start": "tsc -p tsconfig.json && node ./build/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kenyasue/takoyakijs.git"
+    },
+    "keywords": [
+        "NodeJS",
+        "ExpressJS",
+        "web",
+        "Typescript",
+        "webserver"
+    ],
+    "author": "Ken Yasue",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kenyasue/takoyakijs/issues"
+    },
+    "homepage": "https://github.com/kenyasue/takoyakijs#readme",
+    "dependencies": {
+        "@types/node": "^17.0.35",
+        "typescript": "^4.6.4"
+    },
+    "bin": {
+        "takoyakijs": "./bin/main.js"
+    }
+}
